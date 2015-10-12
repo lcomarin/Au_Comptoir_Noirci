@@ -10,6 +10,6 @@
 namespace Au_Comptoir_Noirci {
     
     
-    public partial class Contact {
+    public partial class Mon_panier {
     }
 }

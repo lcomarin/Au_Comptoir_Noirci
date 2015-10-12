@@ -10,6 +10,12 @@ body {
 	background-image: url('img/parcho12.jpg');
 	background-attachment: fixed;
 	font-family:Cardinal;
+    font-size:20px;
+}
+
+h2{
+	font-family: Cardinal;
+    font-size:40px;
 }
 
 /* Wrapping element */
@@ -62,6 +68,11 @@ input[type="select"] {
 	background-color:transparent;
 	border:none;
 	height:60px;
+    width:260px;
 	text-align:center;
 	padding:10px;
+}
+
+ a.menuliste:hover{
+	background-color: rgba(255, 255, 255, 0.5);
 }

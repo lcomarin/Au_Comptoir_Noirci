@@ -1,17 +1,16 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Au_Comptoir_Noirci.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: Title %>.</h2>
-    <h3>Your contact page.</h3>
+    <h2><%: Title %></h2>
     <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
+        Camelot, Cadbury Hill<br />
+        Glastonbury, Somerset<br /><br />
+        <abbr title="Phone">Pigeons voyageurs:</abbr>
+        Compagnie Aile du temps, actuellement 17 pigeons en vigueurs
     </address>
 
     <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+        <strong>Support:</strong>   <a href="mailto:lionel.comarin@viacesi.fr">Châtelain</a><br />
+        <strong>Marketing:</strong> <a href="mailto:pierreantoine.tridon@viacesi.fr">Hobereau</a>
     </address>
 </asp:Content>
