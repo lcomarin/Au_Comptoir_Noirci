@@ -1,0 +1,132 @@
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\csc.exe
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\System.Collections.Immutable.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\vbc.exe
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\VBCSCompiler.exe
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\VBCSCompiler.exe.config
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Au Comptoir Noirci.dll.config
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Au Comptoir Noirci.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Au Comptoir Noirci.pdb
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Antlr3.Runtime.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\AspNet.ScriptManager.bootstrap.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\AspNet.ScriptManager.jQuery.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\EntityFramework.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\EntityFramework.SqlServer.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.AspNet.FriendlyUrls.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.Google.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.ScriptManager.MSAjax.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.ScriptManager.WebForms.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Web.Infrastructure.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Newtonsoft.Json.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Owin.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\System.Web.Optimization.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\System.Web.Providers.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\WebGrease.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\System.Web.Optimization.xml
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Antlr3.Runtime.pdb
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Newtonsoft.Json.xml
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.AspNet.FriendlyUrls.xml
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\EntityFramework.xml
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\EntityFramework.SqlServer.xml
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\System.Web.Providers.xml
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.xml
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.xml
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.Google.xml
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\obj\Debug\Au Comptoir Noirci.csprojResolveAssemblyReference.cache
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\obj\Debug\Au Comptoir Noirci.dll
+c:\users\1375786\documents\visual studio 2015\Projects\Au Comptoir Noirci\Au Comptoir Noirci\obj\Debug\Au Comptoir Noirci.pdb
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\csc.exe
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\System.Collections.Immutable.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\System.Reflection.Metadata.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\vbc.exe
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\VBCSCompiler.exe
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\roslyn\VBCSCompiler.exe.config
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Au Comptoir Noirci.dll.config
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Au Comptoir Noirci.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Au Comptoir Noirci.pdb
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Antlr3.Runtime.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\AspNet.ScriptManager.bootstrap.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\AspNet.ScriptManager.jQuery.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\EntityFramework.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\EntityFramework.SqlServer.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.AspNet.Identity.Core.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.Cookies.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.Facebook.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.Google.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.OAuth.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.Twitter.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.ScriptManager.WebForms.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Web.Infrastructure.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Newtonsoft.Json.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Owin.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\System.Web.Optimization.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\System.Web.Providers.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\WebGrease.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\System.Web.Optimization.xml
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Antlr3.Runtime.pdb
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Newtonsoft.Json.xml
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\EntityFramework.xml
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\EntityFramework.SqlServer.xml
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.AspNet.Identity.Core.xml
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\System.Web.Providers.xml
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.xml
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.xml
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.Facebook.xml
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.Cookies.xml
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.Google.xml
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.Twitter.xml
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\bin\Microsoft.Owin.Security.OAuth.xml
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\obj\Debug\Au Comptoir Noirci.csprojResolveAssemblyReference.cache
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\obj\Debug\Au Comptoir Noirci.dll
+E:\CESI\Asp_net\Au Comptoir Noirci\Au Comptoir Noirci\obj\Debug\Au Comptoir Noirci.pdb
