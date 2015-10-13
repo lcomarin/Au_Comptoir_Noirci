@@ -192,6 +192,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Categories.aspx" />
+    <Content Include="Promotions.aspx" />
     <Content Include="Mon_panier.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -382,6 +384,20 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Categories.aspx.cs">
+      <DependentUpon>Categories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Categories.aspx.designer.cs">
+      <DependentUpon>Categories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Promotions.aspx.cs">
+      <DependentUpon>Promotions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Promotions.aspx.designer.cs">
+      <DependentUpon>Promotions.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Mon_panier.aspx.cs">
       <DependentUpon>Mon_panier.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

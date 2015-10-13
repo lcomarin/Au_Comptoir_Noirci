@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Au_Comptoir_Noirci
 {
-    public partial class Mon_panier : System.Web.UI.Page
+    public partial class Promotions : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

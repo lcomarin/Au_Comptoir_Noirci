@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Mon panier" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Promotions.aspx.cs" Inherits="Au_Comptoir_Noirci.Promotions" %>
+﻿<%@ Page Title="Mon panier" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Categories.aspx.cs" Inherits="Au_Comptoir_Noirci.Categories" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">

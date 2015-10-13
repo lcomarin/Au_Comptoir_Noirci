@@ -10,6 +10,6 @@
 namespace Au_Comptoir_Noirci {
     
     
-    public partial class Promotions {
+    public partial class Categories {
     }
 }
