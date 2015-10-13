@@ -76,3 +76,16 @@ input[type="select"] {
  a.menuliste:hover{
 	background-color: rgba(255, 255, 255, 0.5);
 }
+
+ /*Détail de l'article*/
+
+ #photo_article{
+     width:730px;
+     height:567px;
+     background-image:url(img/cadre.gif);
+ }
+
+ #photo_article img{
+     padding-left:75px;
+     padding-top:74px;
+ }

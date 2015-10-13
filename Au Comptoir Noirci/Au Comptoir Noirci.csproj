@@ -176,13 +176,16 @@
     <Content Include="Content\img\1372517918-beer.png" />
     <Content Include="beericon.ico" />
     <Content Include="Content\img\banderole_menu.png" />
+    <Content Include="Content\img\cadre.gif" />
     <Content Include="Content\img\hqdefault.jpg" />
     <Content Include="Content\img\Kaamelott_logo.png" />
     <Content Include="Content\img\mini_logo.png" />
     <Content Include="Content\img\parchemin.jpg" />
     <Content Include="Content\img\parchemin_vierge.png" />
     <Content Include="Content\img\parcho12.jpg" />
+    <Content Include="Content\img\target-512.png" />
     <Content Include="Content\Site.css" />
+    <Content Include="Détail_Article.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -367,6 +370,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Détail_Article.aspx.cs">
+      <DependentUpon>Détail_Article.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Détail_Article.aspx.designer.cs">
+      <DependentUpon>Détail_Article.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

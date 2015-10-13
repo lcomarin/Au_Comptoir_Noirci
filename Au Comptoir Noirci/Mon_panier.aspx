@@ -1,6 +1,5 @@
 ﻿<%@ Page Title="Mon panier" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Mon_panier.aspx.cs" Inherits="Au_Comptoir_Noirci.Mon_panier" %>
 
-
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
 
