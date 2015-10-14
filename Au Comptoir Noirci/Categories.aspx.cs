@@ -12,6 +12,7 @@ namespace Au_Comptoir_Noirci
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string contenu = "";
             string connectionString = .Properties.Settings.Default.ConnectionString;
             //
             // In a using statement, acquire the SqlConnection as a resource.
@@ -25,15 +26,15 @@ namespace Au_Comptoir_Noirci
                 //
                 // The following code uses an SqlCommand based on the SqlConnection.
                 //
-                using (SqlCommand command = new SqlCommand("SELECT TOP 2 * FROM Dogs1", con))
-                using (SqlDataReader reader = command.ExecuteReader())
+                SqlCommand command = new SqlCommand("SELECT id, nom from categories", con);
+                SqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
                 {
-                    while (reader.Read())
-                    {
-                        Console.WriteLine("{0} {1} {2}",
-                        reader.GetInt32(0), reader.GetString(1), reader.GetString(2));
-                    }
+                    contenu += "<div class=\"categorie\"><h2>" + reader.GetString(1) + "</h2>";
+                    command = new SqlCommand("SELECT id, titre, substring(contenu, 0, 250), statut, prix, note from article", con);
+                    contenu += "</div>";
                 }
+                con.Close();
             }
         }
     }
