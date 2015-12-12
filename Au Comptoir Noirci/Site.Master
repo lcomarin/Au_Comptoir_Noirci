@@ -91,7 +91,7 @@
             </div>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %>Lionel COMARIN & Pierre-Antoine TRIDON -  ASP.NET Application</p>
+                <p>&copy; <%: DateTime.Now.Year %>Lionel COMARIN & Pierre-Antoine TRIDON -  Application ASP.NET </p>
             </footer>
         </div>
     </form>

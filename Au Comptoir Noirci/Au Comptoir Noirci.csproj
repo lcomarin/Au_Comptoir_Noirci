@@ -185,7 +185,7 @@
     <Content Include="Content\img\parcho12.jpg" />
     <Content Include="Content\img\target-512.png" />
     <Content Include="Content\Site.css" />
-    <Content Include="Détail_Article.aspx" />
+    <Content Include="Detail_Article.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -373,12 +373,12 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Détail_Article.aspx.cs">
-      <DependentUpon>Détail_Article.aspx</DependentUpon>
+    <Compile Include="Detail_Article.aspx.cs">
+      <DependentUpon>Detail_Article.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Détail_Article.aspx.designer.cs">
-      <DependentUpon>Détail_Article.aspx</DependentUpon>
+    <Compile Include="Detail_Article.aspx.designer.cs">
+      <DependentUpon>Detail_Article.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
