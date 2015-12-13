@@ -9,8 +9,10 @@
             <p id="pas_de_photos"><span id="photo_texte" runat="server">Il n'y a actuellement aucune gravure pour cet article.</span></p>
             <h3>Prix: </h3><p id="prix" runat="server">Prix à débattre</p>
             <h3>Description:</h3><p id="description_texte" runat="server">Il n'y a actuellement aucune description</p>
-            <a class="menuliste list-group-item" href="Default.aspx">Contacter l'annonceur</a>
-            <a class="menuliste list-group-item" href="Default.aspx">Retourner à l'accueil</a>
+            <div id="boutons" class="bouton_valid" runat="server">
+                <a class="menuliste list-group-item" href="Default.aspx">Contacter l'annonceur</a>
+                <a class="menuliste list-group-item" href="Default.aspx">Retourner à l'accueil</a>
+            </div>
         </div>
     </div>
 </asp:Content>

@@ -16,13 +16,13 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img class="slide-image" src="http://placehold.it/800x300" alt="" width="880">
+                                <img class="slide-image" src="https://www.super-insolite.com/wp-content/uploads/2015/05/Alexandre-Astier_kaamelott-800x300.jpg" alt="" width="880">
                             </div>
                             <div class="item">
-                                <img class="slide-image" src="http://placehold.it/800x300" alt="" width="880">
+                                <img class="slide-image" src="http://www.palnatoke.com/_assets/_img/products/sword_marauder_large.jpg" alt="" width="880">
                             </div>
                             <div class="item">
-                                <img class="slide-image" src="http://placehold.it/800x300" alt="" width="880">
+                                <img class="slide-image" src="https://ssl10.ovh.net/~lerepairl/images/GN_PALNA_EpeeCeltic.jpg" alt="" width="880">
                             </div>
                         </div>
                         <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
