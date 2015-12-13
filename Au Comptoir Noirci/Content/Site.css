@@ -18,6 +18,12 @@ h2{
     font-size:40px;
 }
 
+
+h3{
+	font-family: Cardinal;
+    font-size:30px;
+}
+
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
@@ -79,15 +85,32 @@ input[type="select"] {
 	background-color: rgba(255, 255, 255, 0.5);
 }
 
+ /* Boutons */
+
+ .bouton_valid a{
+     display: inline-block;
+ }
+
  /*Détail de l'article*/
 
- #photo_article{
+ 
+ .photo{
      width:730px;
      height:567px;
      background-image:url(img/cadre.gif);
  }
 
- #photo_article img{
+ .photo img{
      padding-left:75px;
      padding-top:74px;
+ }
+
+ /* Ajout d'article*/
+
+ .champ_texte *{
+     display: inline-block;
+ }
+
+ .champ_texte h3{
+     width:150px;
  }
