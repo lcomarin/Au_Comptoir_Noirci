@@ -1,0 +1,9 @@
+14/12/2015
+Mon_Panier.aspx
+--Suppression de la page, car aucune utilité sur un site tel que le bon coin
+
+Profil.aspx
+--Création de la page de profil de l'utilisateur
+
+Recherche.aspx
+--Création de la page de recherche d'article selon un utilisateur ou une catégorie

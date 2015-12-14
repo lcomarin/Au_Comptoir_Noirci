@@ -75,7 +75,10 @@ input[type="select"] {
 	border-radius:10px;
 }
 /*Gestion du menuliste*/
-
+.menu{
+    text-align:center;
+    font-size:40px;
+}
 .menuliste {
 	background-image: url('img/banderole_menu.png');
 	background-color:transparent;
@@ -118,4 +121,10 @@ input[type="select"] {
 
  .champ_texte h3{
      width:150px;
+ }
+
+ /* Catégorie */
+
+ .categorie{
+     text-align:justify;
  }

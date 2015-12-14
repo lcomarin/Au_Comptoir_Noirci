@@ -1,11 +1,10 @@
-﻿<%@ Page Title="Catégories" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Categories.aspx.cs" Inherits="Au_Comptoir_Noirci.Categories" %>
+﻿<%@ Page Title="Recherche" Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="Recherche.aspx.cs" Inherits="Au_Comptoir_Noirci.Recherche" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
         <div class="col-md-9">
-            <h2>Catégories</h2>
-            <p>Voici les différentes catégories disponibles pour les annonces. Vous pouvez cliquer sur l'une d'entre elles pour afficher les articles liés</p>
-            <div id="affichage_categorie" runat="server">
+            <h2 id="titre" runat="server">Tous les articles</h2>
+            <div id="resultat_recherche" runat="server">
                 <div class="col-md-4 categorie">
                     <div class="thumbnail">
                         <div class="caption">

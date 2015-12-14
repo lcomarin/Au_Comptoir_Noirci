@@ -10,15 +10,24 @@
 namespace Au_Comptoir_Noirci {
     
     
-    public partial class Categories {
+    public partial class Recherche {
         
         /// <summary>
-        /// Contrôle affichage_categorie.
+        /// Contrôle titre.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl affichage_categorie;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl titre;
+        
+        /// <summary>
+        /// Contrôle resultat_recherche.
+        /// </summary>
+        /// <remarks>
+        /// Champ généré automatiquement.
+        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl resultat_recherche;
     }
 }

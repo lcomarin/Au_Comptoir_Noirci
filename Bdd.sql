@@ -73,7 +73,7 @@ CREATE TABLE Categorie(
 #-- Mise à jour de la table Categorie
 #------------------------------------
 INSERT INTO Categorie VALUES (1,'Meuble','Pour décorer ou ranger');
-INSERT INTO Categorie VALUES (2,'Bois','C''est ne matière vivante, il faut donc le traiter, c''est capital!');
+INSERT INTO Categorie VALUES (2,'Bois','C''est une matière vivante, il faut donc le traiter, c''est capital!');
 INSERT INTO Categorie VALUES (3,'Ferme','Idéal pour élever des animaux, comme des ânes mignon comme tout');
 INSERT INTO Categorie VALUES (4,'Château','Place fortifiée. Vérifier le nombre de pierres.');
 INSERT INTO Categorie VALUES (5,'Pierre','C''est joli à la vue');
