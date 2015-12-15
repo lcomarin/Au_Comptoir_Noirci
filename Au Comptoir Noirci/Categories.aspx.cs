@@ -12,29 +12,40 @@ namespace Au_Comptoir_Noirci
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //string contenu = "";
-            //string connectionString = .Properties.Settings.Default.ConnectionString;
-            ////
-            //// In a using statement, acquire the SqlConnection as a resource.
-            ////
-            //using (SqlConnection con = new SqlConnection(la_reserveConnectionString))
+            //using (SqlConnection connexion = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["NomBdd"].ConnectionString))
             //{
-            //    //
-            //    // Open the SqlConnection.
-            //    //
-            //    con.Open();
-            //    //
-            //    // The following code uses an SqlCommand based on the SqlConnection.
-            //    //
-            //    SqlCommand command = new SqlCommand("SELECT id, nom from categories", con);
-            //    SqlDataReader reader = command.ExecuteReader();
-            //    while (reader.Read())
+            //    String req = " select libelle, description from categorie ";
+            //    SqlCommand command = new SqlCommand(req, connexion);
+            //    connexion.Open();
+            //    SqlDataReader dR = command.ExecuteReader();
+            //    /* vérification si l'on a une réponse à la recherche */
+            //    if (dR.HasRows)
             //    {
-            //        contenu += "<div class=\"categorie\"><h2>" + reader.GetString(1) + "</h2>";
-            //        command = new SqlCommand("SELECT id, titre, substring(contenu, 0, 250), statut, prix, note from article", con);
-            //        contenu += "</div>";
+            //        /* tant que l'on a une réponse, on rajoute à la variable le texte permettant d'intégrer la ligne de réponse de la requête sql */
+            //        while (dR.Read())
+            //        {
+            //            reponse += "<div class='col-sm-4 col-lg-4 col-md-4'>" +
+            //                            "<div class='thumbnail'>" +
+            //                                "<img src='" + String.Format("{0}", dR[0]) + "' width='320' height='150'>" +
+            //                                "<div class='caption'>" +
+            //                                    "<h4 class='pull-right'>" + String.Format("{0}", dR[1]) + "</h4>" +
+            //                                    "<h4><a href='Detail_Article.aspx?idArticle=" + String.Format("{0}", dR[2]) + "'>" + String.Format("{0}", dR[3]) + "</a></h4>" +
+            //                                "</div>" +
+            //                                "<div class='ratings'>" +
+            //                                    "<p class='pull-right'>" + String.Format("{0}", dR[4]) + "</p>" +
+            //                                    "<p>" + String.Format("{0}", dR[5]) + "</p>" +
+            //                                "</div>" +
+            //                            "</div>" +
+            //                        "</div>";
+            //        }
+            //        resultat_recherche.InnerHtml = reponse;
             //    }
-            //    con.Close();
+            //    /* Si l'on n'a de réponse à la recherche, redirection vers la page d'erreur */
+            //    else
+            //    {
+            //        Response.Redirect("Erreur.aspx?codeErreur=1");
+            //    }
+            //    connexion.Close();
             //}
         }
     }

@@ -16,7 +16,7 @@
                 </div>
                 <div class="col-md-4 categorie">
                     <div class="thumbnail">
-                        <div class="caption">
+                        <div class="caption" height='200'>
                             <h4><a href="Recherche.aspx?id_categorie=2">Bois</a>
                             </h4>
                             <p>C'est une matière vivante, il faut donc le traiter, c'est capital!</p>

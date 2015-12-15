@@ -21,13 +21,22 @@ img.slide_image{
 h2{
 	font-family: Cardinal;
     font-size:40px;
+    margin-bottom:20px;
 }
-
 
 h3{
 	font-family: Cardinal;
     font-size:30px;
+    margin-bottom:20px;
 }
+
+h4{
+	font-family: Cardinal;
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+
 
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
@@ -106,6 +115,11 @@ input[type="select"] {
      width:730px;
      height:567px;
      background-image:url(img/cadre.gif);
+     z-index:5;
+     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     margin-bottom:30px;
  }
 
  .photo img{
@@ -123,8 +137,33 @@ input[type="select"] {
      width:150px;
  }
 
- /* Catégorie */
+ /* Petite annonce */
 
- .categorie{
+ .annonce{
      text-align:justify;
+     height:400px;
+ }
+
+ .annonce .thumbnail{
+    height:400px;
+    background: url(img/Parchemin_vierge_2.png) no-repeat;
+    background-size:100%;
+    background-color:transparent;
+    border:none;
+    padding:35px;
+    padding-top:65px;
+ }
+
+ .annonce .thumbnail img{
+     width:80%;
+     height:100px;
+ }
+
+ /*Page erreur*/
+
+ #img_erreur{
+     margin-left:-2px;
+     width:658px;
+     height:493px;
+     z-index:1;
  }

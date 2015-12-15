@@ -49,6 +49,15 @@ namespace Au_Comptoir_Noirci {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl statut;
         
         /// <summary>
+        /// Contrôle photo_article.
+        /// </summary>
+        /// <remarks>
+        /// Champ généré automatiquement.
+        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl photo_article;
+        
+        /// <summary>
         /// Contrôle photo_texte.
         /// </summary>
         /// <remarks>

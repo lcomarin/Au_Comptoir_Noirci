@@ -7,3 +7,23 @@ Profil.aspx
 
 Recherche.aspx
 --Création de la page de recherche d'article selon un utilisateur ou une catégorie
+
+15/12/2015
+Web.config
+--Ajout de la gestion d'erreur 404 et 500
+
+Erreur.aspx
+--Personnalisation du texte pour l'erreur 404, 500 et la recherche nulle
+
+Detail_Article.aspx.cs
+--Mise en forme du Page_Load
+
+Default.aspx
+--Mise en forme de l'aperçu d'article
+
+Recherche.aspx
+--Création des requêtes pour l'affiche des articles selon l'utilisateur ou la catégorie
+
+Catégorie.aspx
+--Mise à jour de la requête pour afficher les différentes catégories
+

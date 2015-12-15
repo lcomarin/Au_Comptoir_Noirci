@@ -179,14 +179,20 @@
     <Content Include="Content\img\banderole_menu.png" />
     <Content Include="Content\img\cadre.gif" />
     <Content Include="Content\img\hqdefault.jpg" />
+    <Content Include="Content\img\Img_erreur.jpg" />
     <Content Include="Content\img\Kaamelott_logo.png" />
     <Content Include="Content\img\mini_logo.png" />
     <Content Include="Content\img\parchemin.jpg" />
     <Content Include="Content\img\parchemin_vierge.png" />
+    <Content Include="Content\img\Parchemin_vierge_2.png" />
     <Content Include="Content\img\parcho12.jpg" />
+    <Content Include="Content\img\Slide_2.png" />
+    <Content Include="Content\img\Slide_3.png" />
+    <Content Include="Content\img\Slide_1.jpg" />
     <Content Include="Content\img\target-512.png" />
     <Content Include="Content\Site.css" />
     <Content Include="Detail_Article.aspx" />
+    <Content Include="Erreur.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -194,7 +200,6 @@
     <Content Include="Account\Web.config" />
     <Content Include="Profil.aspx" />
     <Content Include="Recherche.aspx" />
-    <Content Include="Erreur.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Categories.aspx" />
     <Content Include="Promotions.aspx" />
@@ -390,6 +395,13 @@
     <Compile Include="Detail_Article.aspx.designer.cs">
       <DependentUpon>Detail_Article.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Erreur.aspx.cs">
+      <DependentUpon>Erreur.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Erreur.aspx.designer.cs">
+      <DependentUpon>Erreur.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -444,13 +456,6 @@
     </Compile>
     <Compile Include="Recherche.aspx.designer.cs">
       <DependentUpon>Recherche.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Erreur.aspx.cs">
-      <DependentUpon>Erreur.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Erreur.aspx.designer.cs">
-      <DependentUpon>Erreur.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
