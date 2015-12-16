@@ -27,3 +27,16 @@ Recherche.aspx
 Catégorie.aspx
 --Mise à jour de la requête pour afficher les différentes catégories
 
+16/12/2015
+Recherche.aspx
+--Mise à jour de la mise en forme de l'aperçu d'article pour coller avec Default.aspx
+
+AddArticle.aspx
+--Mise en place d'un fond en bois pour le corps de texte
+--Définition de l'ajout et prévision de l'édition d'annonce
+--Utilisation de CommandArgument pour le choix des catégories
+
+WebServiceAutoComplete.asmx
+--Ajout d'un webservice permettant un autocomplete pour le choix des catégories
+--Ajout de AjaxControlToolKit et de System.Windows.Forms en référence
+--Modification du Web.config l32 pour l'ajout d'AjaxControlToolKit

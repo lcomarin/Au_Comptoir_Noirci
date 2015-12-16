@@ -5,12 +5,16 @@
 
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-	padding-top: 80px;
+	padding-top: 60px;
 	padding-bottom: 20px;
 	background-image: url('img/parcho12.jpg');
 	background-attachment: fixed;
 	font-family:Cardinal;
     font-size:20px;
+}
+
+.littledown{
+    margin-top:50px;
 }
 
 img.slide_image{
@@ -71,9 +75,24 @@ input[type="select"] {
 	}
 }
 
-/*Icône*/
+/*Caroussel*/
 
-/*Boutons*/
+.cadre{
+     width:880px;
+     height:430px;
+     background:url(img/cadre_2.png) no-repeat;
+     background-color:transparent;
+     z-index:5;
+     margin-bottom:-30px;
+ }
+
+.interieur_cadre{
+    padding-top:73px;
+    padding-left:59px;
+    padding-right:59px;
+    vertical-align:middle;
+    z-index:2
+}
 
 /*Gestion du caroussel*/
 #caroussel_main{
@@ -84,6 +103,16 @@ input[type="select"] {
 	border-radius:10px;
 }
 /*Gestion du menuliste*/
+.pannonceau{
+    background: url(img/Pannonceau.png) no-repeat;
+    background-size:100%;
+    background-color:transparent;
+    padding-top:75px;
+    padding-bottom:15px;
+    width:260px;
+    color:#efefef;
+}
+
 .menu{
     text-align:center;
     font-size:40px;
@@ -98,7 +127,7 @@ input[type="select"] {
 	padding:10px;
 }
 
- a.menuliste:hover{
+a.menuliste:hover{
 	background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -107,6 +136,7 @@ input[type="select"] {
  .bouton_valid a{
      display: inline-block;
  }
+
 
  /*Détail de l'article*/
 
@@ -133,9 +163,55 @@ input[type="select"] {
      display: inline-block;
  }
 
+ .panelwood {
+    background: url(img/Bois.jpg) no-repeat;
+    background-size:cover;
+    background-color:transparent;
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    padding:15px;
+    padding-left:40px;
+ }
+
+ .panelwood *{
+     color:#efefef;
+ }
+
+ .panelwood input, .panelwood textarea{
+     color:black;
+ }
+
  .champ_texte h3{
      width:150px;
  }
+
+ .bouton_wood{
+	background-image: url('img/banderole_menu.png');
+	background-color:transparent;
+	border:none;
+	height:60px;
+    width:260px;
+	text-align:center;
+	padding:10px;
+ }
+
+ .bouton_wood a{
+    color:#efefef;
+ }
+
+.bouton_wood:hover{
+    cursor:pointer;
+	background-color: rgba(255, 255, 255, 0.5);
+    text-decoration:none;
+    color:white;
+}
+
+ .panelwood input.bouton_asp{
+    color:white;
+    text-align:center;
+    padding-bottom:40px;
+}
 
  /* Petite annonce */
 

@@ -20,7 +20,7 @@ namespace Au_Comptoir_Noirci
             {
                 using (SqlConnection connexion = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["NomBdd"].ConnectionString))
                 {
-                    String req = "  select a.photo, a.prix, a.id_annonce, a.titre, a.date, a.statut, u.prenom, u.nom from annonce a inner join utilisateur u on a.id_utilisateur = u.id_utilisateur where  u.id_utilisateur = " + Request.QueryString["id_utilisateur"];
+                    String req = "  select a.photo, a.id_annonce, a.titre, a.statut, a.prix, a.date, u.prenom, u.nom from annonce a inner join utilisateur u on a.id_utilisateur = u.id_utilisateur where  u.id_utilisateur = " + Request.QueryString["id_utilisateur"];
                     SqlCommand command = new SqlCommand(req, connexion);
                     connexion.Open();
                     SqlDataReader dR = command.ExecuteReader();
@@ -31,18 +31,16 @@ namespace Au_Comptoir_Noirci
                         while (dR.Read())
                         {
                             param = String.Format("{0}", dR[6]) + " " + String.Format("{0}", dR[7]);
-                            reponse += "<div class='col-sm-4 col-lg-4 col-md-4 annonce'>" +
-                                            "<div class='thumbnail'>" +
-                                                "<img src='" + String.Format("{0}", dR[0]) + "' width='320' height='150'>" +
-                                                "<div class='caption'>" +
-                                                    "<h4 class='pull-right'>" + String.Format("{0}", dR[1]) + "</h4>" +
-                                                    "<h4><a href='Detail_Article.aspx?idArticle=" + String.Format("{0}", dR[2]) + "'>" + String.Format("{0}", dR[3]) + "</a></h4>" +
-                                                "</div>" +
-                                                "<div class='ratings'>" +
-                                                    "<p class='pull-right'>" + String.Format("{0}", dR[4]) + "</p>" +
-                                                    "<p>" + String.Format("{0}", dR[5]) + "</p>" +
-                                                "</div>" +
-                                            "</div>" +
+                            reponse +=  "<div class='col-sm-4 col-lg-4 col-md-4 annonce'>"+
+                                            "<div class='thumbnail'>"+
+                                                "<img src='"+String.Format("{0}", dR[0])+"' alt=''>"+
+                                                "<div class='caption'>"+
+                                                    "<h4><a href='Detail_Article.aspx?IdAnnonce="+String.Format("{0}", dR[1])+"'>"+String.Format("{0}", dR[2])+"</a></h4>"+
+                                                    "<p class='pull-right'>"+String.Format("{0}", dR[3])+"</p>"+
+                                                    "<p>"+String.Format("{0}", dR[4])+"</p>"+
+                                                    "<p>"+String.Format("{0}", dR[5])+"</p>"+
+                                                "</div>"+
+                                            "</div>"+
                                         "</div>";
                         }
                         resultat_recherche.InnerHtml = reponse;
@@ -61,7 +59,7 @@ namespace Au_Comptoir_Noirci
             {
                 using (SqlConnection connexion = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["NomBdd"].ConnectionString))
                 {
-                    String req = "  select a.photo, a.prix, a.id_annonce, a.titre, a.date, a.statut, c.libelle from annonce a inner join categorie_annonce ca on ca.id_annonce = a.id_annonce inner join categorie c on ca.id_categorie = c.id_categorie where  c.id_categorie = " + Request.QueryString["id_categorie"];
+                    String req = "  select a.photo, a.id_annonce, a.titre, a.statut, a.prix, a.date, c.libelle from annonce a inner join categorie_annonce ca on ca.id_annonce = a.id_annonce inner join categorie c on ca.id_categorie = c.id_categorie where  c.id_categorie = " + Request.QueryString["id_categorie"];
                     SqlCommand command = new SqlCommand(req, connexion);
                     connexion.Open();
                     SqlDataReader dR = command.ExecuteReader();
@@ -72,15 +70,13 @@ namespace Au_Comptoir_Noirci
                         while (dR.Read())
                         {
                             param = String.Format("{0}", dR[6]);
-                            reponse += "<div class='col-sm-4 col-lg-4 col-md-4'>" +
+                            reponse += "<div class='col-sm-4 col-lg-4 col-md-4 annonce'>" +
                                             "<div class='thumbnail'>" +
-                                                "<img src='" + String.Format("{0}", dR[0]) + "' width='320' height='150'>" +
+                                                "<img src='" + String.Format("{0}", dR[0]) + "' alt=''>" +
                                                 "<div class='caption'>" +
-                                                    "<h4 class='pull-right'>" + String.Format("{0}", dR[1]) + "</h4>" +
-                                                    "<h4><a href='Detail_Article.aspx?idArticle=" + String.Format("{0}", dR[2]) + "'>" + String.Format("{0}", dR[3]) + "</a></h4>" +
-                                                "</div>" +
-                                                "<div class='ratings'>" +
-                                                    "<p class='pull-right'>" + String.Format("{0}", dR[4]) + "</p>" +
+                                                    "<h4><a href='Detail_Article.aspx?IdAnnonce=" + String.Format("{0}", dR[1]) + "'>" + String.Format("{0}", dR[2]) + "</a></h4>" +
+                                                    "<p class='pull-right'>" + String.Format("{0}", dR[3]) + "</p>" +
+                                                    "<p>" + String.Format("{0}", dR[4]) + "</p>" +
                                                     "<p>" + String.Format("{0}", dR[5]) + "</p>" +
                                                 "</div>" +
                                             "</div>" +

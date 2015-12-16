@@ -46,7 +46,8 @@ namespace Au_Comptoir_Noirci
         //    /* A définir */
         //    if (utilisateur == utilisateur_connecte)
         //    {
-        //        boutons.InnerHtml = "< a class='menuliste list-group-item' href='Default.aspx'>Supprimer l'annonce</a>" +
+        //        boutons.InnerHtml = "< a class='menuliste list-group-item' href='AddArticle.aspx?IdAnnonce="+Request.QueryString["IdAnnonce"]+"'>Supprimer l'annonce</a>" +
+        //                            "< a class='menuliste list-group-item' href='Default.aspx'>Supprimer l'annonce</a>" +
         //                            "<a class='menuliste list-group-item' href='Default.aspx'>Retourner à l'accueil</a>";
         //    }
         //}
