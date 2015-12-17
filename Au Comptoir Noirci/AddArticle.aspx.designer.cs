@@ -31,13 +31,13 @@ namespace Au_Comptoir_Noirci {
         protected global::System.Web.UI.HtmlControls.HtmlInputText image_article;
         
         /// <summary>
-        /// Contrôle prix_article.
+        /// Contrôle statut_article.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText prix_article;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText statut_article;
         
         /// <summary>
         /// Contrôle description_article.

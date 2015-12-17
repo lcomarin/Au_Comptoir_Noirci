@@ -17,7 +17,7 @@ namespace Au_Comptoir_Noirci
             }
             else if (Request.QueryString["codeErreur"] == "500")
             {
-                consigne.InnerHtml = "<p>Ah ! oui... J'l'ai fait trop fulgurant, là. Ça va ?</p><p>Il y a eu un problème serveur. Veuillez nous excuser pour ce désagrément.</p>";
+                consigne.InnerHtml = "<p>Ah ! oui... J'l'ai fait trop fulgurant, là. Ça va ?</p><p>Il y a eu un problème serveur. Veuillez nous excuser pour ce désagrément. Veuillez envoyer le message si dessous à l'administrateur :</p><p>" + Request.QueryString["msgErreur"] +"</p>";
             }
             else if (Request.QueryString["codeErreur"] == "1")
             {

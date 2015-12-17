@@ -210,6 +210,7 @@
     <Content Include="Account\Web.config" />
     <Content Include="Profil.aspx" />
     <Content Include="Recherche.aspx" />
+    <Content Include="SuppArticle.aspx" />
     <Content Include="WebServiceAutoComplete.asmx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Categories.aspx" />
@@ -449,6 +450,13 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="SuppArticle.aspx.cs">
+      <DependentUpon>SuppArticle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SuppArticle.aspx.designer.cs">
+      <DependentUpon>SuppArticle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

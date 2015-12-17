@@ -12,6 +12,7 @@ namespace Au_Comptoir_Noirci
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            String reponse = "";
             using (SqlConnection connexion = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["NomBdd"].ConnectionString))
             {
                 String req = " select libelle, description from categorie ";
@@ -38,7 +39,7 @@ namespace Au_Comptoir_Noirci
                                         "</div>" +
                                     "</div>";
                     }
-                    resultat_recherche.InnerHtml = reponse;
+                    affichage_categorie.InnerHtml = reponse;
                 }
                 /* Si l'on n'a de réponse à la recherche, redirection vers la page d'erreur */
                 else

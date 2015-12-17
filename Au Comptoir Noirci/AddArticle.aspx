@@ -14,8 +14,8 @@
                 <input id="image_article" runat="server" />
             </div>
             <div class="champ_texte">
-                <h3>Prix :</h3>
-                <input id="prix_article" runat="server"/>
+                <h3>Statut :</h3>
+                <input id="statut_article" runat="server"/>
             </div>
             <div class="champ_texte">
                 <h3>Description :</h3>

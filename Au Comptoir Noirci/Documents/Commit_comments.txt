@@ -40,3 +40,14 @@ WebServiceAutoComplete.asmx
 --Ajout d'un webservice permettant un autocomplete pour le choix des catégories
 --Ajout de AjaxControlToolKit et de System.Windows.Forms en référence
 --Modification du Web.config l32 pour l'ajout d'AjaxControlToolKit
+
+17/12/2015
+AddArticle.aspx
+--Mise à jour du code behind avec l'ajout d'article et la suppression de catégories
+
+Erreur.aspx
+--Mise à jour avec un message d'erreur pour l'ajout d'article
+
+SuppArticle.aspx
+--Création de la page
+--Attention! Bug à corriger sur les boutons
