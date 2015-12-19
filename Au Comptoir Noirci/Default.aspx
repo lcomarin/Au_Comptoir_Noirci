@@ -46,7 +46,7 @@
                         <div class='caption'>
                             <h4><a href='Detail_Article.aspx'>First Product</a></h4>
                             <p class='pull-right'>En vente</p>
-                            <p'>$24.99</p
+                            <p'>$24.99</p>
                             <p>12-12-2012</p>
                         </div>
                     </div>

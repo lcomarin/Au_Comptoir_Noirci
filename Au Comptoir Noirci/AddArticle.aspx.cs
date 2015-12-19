@@ -23,7 +23,7 @@ namespace Au_Comptoir_Noirci
         String ca = "";
         protected void Page_Load(object sender, EventArgs e)
         {
-            //if (Request.QueryString["IdAnnonce"] != "")
+            //if (Request.QueryString["IdAnnonce"] != null)
             //{
             //    using (SqlConnection connexion = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["NomBdd"].ConnectionString))
             //    {
@@ -42,11 +42,9 @@ namespace Au_Comptoir_Noirci
             //                description_article.InnerText = String.Format("{0}", dR[3]);
             //            }
             //        }
-            //        connexion.Close();
             //        /* Mise en page des catégories concernant l'article */
             //        req = " select c.libelle, c.id from categories c inner join categorie_annonce ca on ca.id_categorie = c.id_categorie inner join annonce a on a.id_annonce = ca.id_annonce  where a.id_annonce = " + Request.QueryString["IdAnnonce"];
-            //        command = new SqlCommand(req, connexion);
-            //        connexion.Open();
+            //        command.CommandText = req ;
             //        dR = command.ExecuteReader();
             //        if (dR.HasRows)
             //        {
@@ -60,6 +58,7 @@ namespace Au_Comptoir_Noirci
             //        }
             //        connexion.Close();
             //    }
+            //    bouton_add.Text = "Modifier l'article";
             //}
         }
 

@@ -14,9 +14,13 @@ namespace Au_Comptoir_Noirci
         protected void Page_Load(object sender, EventArgs e)
         {
             titre_article.InnerText += Request.QueryString["TitreAnnonce"];
-            boutons.InnerHtml = "<a class='bouton_wood' href='Detail_Article.aspx'?IdAnnonce=" + Request.QueryString["IdAnnonce"] + ">Retourner à l'annonce</a>" +
-                "<a class='bouton_wood' href='Default.aspx'>Retourner à l'accueil</a>";
         }
+
+        protected void retour_Annonce(object sender, EventArgs e)
+        {
+            Response.Redirect("Detail_Article.aspx?IdAnnonce=" + Request.QueryString["IdAnnonce"]);
+        }
+
 
         protected void supp_Annonce(object sender, EventArgs e)
         {

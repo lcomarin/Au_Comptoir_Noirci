@@ -34,7 +34,7 @@
                             TargetControlID="categories" 
                             FirstRowSelected="true">
                 </asp:AutoCompleteExtender>
-                <asp:Button class="bouton_wood bouton_asp" runat="server" onClick="add_Categorie" Text="Ajouter la catégorie"></asp:Button>
+                <asp:Button CssClass="bouton_wood bouton_asp" runat="server" onClick="add_Categorie" Text="Ajouter la catégorie"></asp:Button>
             </div>
             <div class="champ_texte">
                 <h4>Catégories ajoutées:</h4>
@@ -43,7 +43,7 @@
             <br/>
             <br/>
             <div class="bouton_valid">
-                <asp:Button class="bouton_wood bouton_asp" runat="server" onClick="add_Annonce" Text="Ajouter l'annonce"></asp:Button>
+                <asp:Button id='bouton_add' CssClass="bouton_wood bouton_asp" runat="server" onClick="add_Annonce" Text="Ajouter l'annonce"></asp:Button>
                 <a class="bouton_wood" href="Default.aspx">Retourner à l'accueil</a>
             </div>
         </div>

@@ -82,9 +82,10 @@
                 <p class="lead menu pannonceau">Menu</p>
                 <div class="list-group">
                     <a href="Default.aspx" class="list-group-item menuliste">Accueil</a>
-                    <a href="Promotions.aspx" class="list-group-item menuliste">Promotions</a>
-                    <a href="Categories.aspx" class="list-group-item menuliste">Voir les catégories</a>
                     <a href="addArticle.aspx" class="list-group-item menuliste">Ajouter une annonce</a>
+                    <a href="Rechercher.aspx" class="list-group-item menuliste">Toutes les annonces</a>
+                    <a href="Categories.aspx" class="list-group-item menuliste">Toutes les catégories</a>
+                    <a href="addAnnonce.aspx" class="list-group-item menuliste">Ajouter une catégorie</a>
                 </div>
             </div>
             <div class="littledown">
