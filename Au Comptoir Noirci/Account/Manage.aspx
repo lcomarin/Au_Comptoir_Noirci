@@ -29,7 +29,7 @@
                     </dd>
                     <%--
                         Les numéros de téléphone peuvent être utilisés comme second facteur de vérification dans un système d’authentification à 2 facteurs.
-                        Voir <a href="http://go.microsoft.com/fwlink/?LinkId=403804">cet article</a>
+                        Voir <a href="http://go.microsoft.com/fwlink/?LinkId=403804">cet annonce</a>
                         pour des détails sur la configuration de cette application ASP.NET pour prendre en charge l’utilisation de l’authentification à 2 facteurs à l’aide de SMS.
                         Décommentez les blocs suivants après avoir configuré l’authentification à 2 facteurs
                     --%>
@@ -54,7 +54,7 @@
                     <dt>Authentification à 2 facteurs :</dt>
                     <dd>
                         <p>
-                            Aucun fournisseur d’authentification à 2 facteurs n’est configuré. Voir <a href="http://go.microsoft.com/fwlink/?LinkId=403804">cet article</a>
+                            Aucun fournisseur d’authentification à 2 facteurs n’est configuré. Voir <a href="http://go.microsoft.com/fwlink/?LinkId=403804">cet annonce</a>
                             pour des détails sur la configuration de cette application ASP.NET pour prendre en charge l’authentification à 2 facteurs.
                         </p>
                         <% if (TwoFactorEnabled)

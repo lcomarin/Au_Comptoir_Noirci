@@ -8,7 +8,7 @@ using System.Web.UI.WebControls;
 
 namespace Au_Comptoir_Noirci
 {
-    public partial class Détail_Article : System.Web.UI.Page
+    public partial class Detail_Annonce : System.Web.UI.Page
     {
         //protected void Page_Load(object sender, EventArgs e)
         //{
@@ -24,13 +24,13 @@ namespace Au_Comptoir_Noirci
         //            /* Modification de la page selon la réponse à la requête */
         //            while (dR.Read())
         //            {
-        //                titre_article.InnerHtml = String.Format("{0}", dR[0]);
+        //                titre_annonce.InnerHtml = String.Format("{0}", dR[0]);
         //                date.InnerHtml = String.Format("{0}", dR[1]);
         //                utilisateur.InnerHtml = "<a href='Profil.aspx?idUtilisateur=" + String.Format("{0}", dR[5]) + "'>" + String.Format("{0}", dR[6]) + " " + String.Format("{0}", dR[7]) + "</a>";
         //                statut.InnerHtml = String.Format("{0}", dR[2]);
         //                if (String.Format("{0}", dR[3]) != "No_picture")
         //                {
-        //                    photo_article.InnerHtml = "<img id='presentation_article' src='" + String.Format("{0}", dR[3]) + "'/>";
+        //                    photo_annonce.InnerHtml = "<img id='presentation_annonce' src='" + String.Format("{0}", dR[3]) + "'/>";
         //                }
         //                description_texte.InnerHtml = String.Format("{0}", dR[4]);
         //            }
@@ -45,8 +45,8 @@ namespace Au_Comptoir_Noirci
         //    /* A définir */
         //    if (utilisateur == utilisateur_connecte)
         //    {
-        //        boutons.InnerHtml = "< a class='menuliste list-group-item' href='AddArticle.aspx?IdAnnonce="+Request.QueryString["IdAnnonce"]+"'>Modifier l'annonce</a>" +
-        //                            "< a class='menuliste list-group-item' href='SuppArticle.aspx?IdAnnonce="+Request.QueryString["IdAnnonce"]+"&TitreAnnonce="+titre_article.innerText+"'>Supprimer l'annonce</a>" +
+        //        boutons.InnerHtml = "< a class='menuliste list-group-item' href='AddAnnonce.aspx?IdAnnonce="+Request.QueryString["IdAnnonce"]+"'>Modifier l'annonce</a>" +
+        //                            "< a class='menuliste list-group-item' href='SuppAnnonce.aspx?IdAnnonce="+Request.QueryString["IdAnnonce"]+"&TitreAnnonce="+titre_annonce.innerText+"'>Supprimer l'annonce</a>" +
         //                            "<a class='menuliste list-group-item' href='Default.aspx'>Retourner à l'accueil</a>";
         //    }
         //}

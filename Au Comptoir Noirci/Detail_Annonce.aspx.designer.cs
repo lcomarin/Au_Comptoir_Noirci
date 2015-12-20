@@ -10,78 +10,78 @@
 namespace Au_Comptoir_Noirci {
     
     
-    public partial class AddArticle {
+    public partial class Detail_Annonce {
         
         /// <summary>
-        /// Contrôle titre_article.
+        /// Contrôle titre_annonce.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText titre_article;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl titre_annonce;
         
         /// <summary>
-        /// Contrôle image_article.
+        /// Contrôle utilisateur.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText image_article;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl utilisateur;
         
         /// <summary>
-        /// Contrôle statut_article.
+        /// Contrôle date.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText statut_article;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl date;
         
         /// <summary>
-        /// Contrôle description_article.
+        /// Contrôle statut.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTextArea description_article;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl statut;
         
         /// <summary>
-        /// Contrôle categories.
+        /// Contrôle photo_annonce.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox categories;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl photo_annonce;
         
         /// <summary>
-        /// Contrôle AutoCompleteExtender1.
+        /// Contrôle photo_texte.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::AjaxControlToolkit.AutoCompleteExtender AutoCompleteExtender1;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl photo_texte;
         
         /// <summary>
-        /// Contrôle categories_ajoutees.
+        /// Contrôle description_texte.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl categories_ajoutees;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl description_texte;
         
         /// <summary>
-        /// Contrôle bouton_add.
+        /// Contrôle boutons.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button bouton_add;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl boutons;
     }
 }

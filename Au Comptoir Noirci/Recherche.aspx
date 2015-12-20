@@ -2,8 +2,8 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
-        <div class="col-md-9">
-            <h2 id="titre" runat="server">Tous les articles</h2>
+        <div class="col-md-9 panelwood">
+            <h2 id="titre" runat="server">Tous les annonces</h2>
             <div id="resultat_recherche" runat="server">
                 <div class="col-md-4 categorie">
                     <div class="thumbnail">

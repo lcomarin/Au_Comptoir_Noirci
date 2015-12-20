@@ -33,7 +33,7 @@ namespace Au_Comptoir_Noirci
             //                                "<p>" + String.Format("{0}", dR[1]) + "</p>" +
             //                                "<div class='bouton_valid'>" +
             //                                    "<a class='bouton_wood' href='AddCategorie.aspx?IdCategorie=" + String.Format("{0}", dR[2]) + "'>Modifier la catégorie</a>" +
-            //                                    "<a class='bouton_wood' href='SuppArticle.aspx?IdCategorie=" + String.Format("{0}", dR[2]) + "'>Supprimer la catégorie</a>" +
+            //                                    "<a class='bouton_wood' href='SuppAnnonce.aspx?IdCategorie=" + String.Format("{0}", dR[2]) + "'>Supprimer la catégorie</a>" +
             //                                    "<a class='bouton_wood' href='Recherche.aspx?IdCategorie=" + String.Format("{0}", dR[2]) + "'>Voir les annonces</a>" +
             //                                    "<a class='bouton_wood' href='Default.aspx'>Retourner à l'accueil</a>" +
             //                                "</div>" +

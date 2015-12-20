@@ -1,25 +1,25 @@
-﻿<%@ Page Title="Ajout d'article" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AddArticle.aspx.cs" Inherits="Au_Comptoir_Noirci.AddArticle" %>
+﻿<%@ Page Title="Ajout d'annonce" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AddAnnonce.aspx.cs" Inherits="Au_Comptoir_Noirci.AddAnnonce" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
         <div class="col-md-9 panelwood">
-            <h2> Ajout d'article</h2>
+            <h2> Ajout d'annonce</h2>
             <div class="champ_texte">
                 <h3>Titre :</h3>
-                <input id="titre_article" runat="server"/>
+                <input id="titre_annonce" runat="server"/>
             </div>
             <div class="champ_texte">
                 <h3>Image :</h3>
-                <input id="image_article" runat="server" />
+                <input id="image_annonce" runat="server" />
             </div>
             <div class="champ_texte">
                 <h3>Statut :</h3>
-                <input id="statut_article" runat="server"/>
+                <input id="statut_annonce" runat="server"/>
             </div>
             <div class="champ_texte">
                 <h3>Description :</h3>
-                <textarea rows="4" cols="50" id="description_article" runat="server"></textarea>
+                <textarea rows="4" cols="50" id="description_annonce" runat="server"></textarea>
             </div>
             <div class="champ_texte">
                 <h3>Catégories :</h3>

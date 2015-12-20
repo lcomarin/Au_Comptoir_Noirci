@@ -11,7 +11,7 @@
                     <p>Idéal pour élever des animaux, comme des ânes mignons comme tout Idéal pour élever des animaux, comme des ânes mignons comme tout Idéal pour élever des animaux, comme des ânes mignons comme tout Idéal pour élever des animaux, comme des ânes mignons c</p>
                     <div id="test" class="bouton_valid" runat="server">
                         <a class='bouton_wood' href='AddCategorie.aspx?IdCategorie=1'>Modifier la catégorie</a>
-                        <a class='bouton_wood' href='SuppArticle.aspx?IdCategorie=1'>Supprimer la catégorie</a>
+                        <a class='bouton_wood' href='suppression.aspx?IdCategorie=1'>Supprimer la catégorie</a>
                         <a class='bouton_wood' href='Recherche.aspx?IdCategorie=1'>Voir les annonces</a>
                         <a class='bouton_wood' href='Default.aspx'>Retourner à l'accueil</a>
                     </div>

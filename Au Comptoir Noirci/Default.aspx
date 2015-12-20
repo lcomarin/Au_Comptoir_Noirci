@@ -37,81 +37,84 @@
                      </div>
                 </div>
             </div>
-
-            <div class='row'>
+            <br />
+            <div class='row panelwood'>
                 <h3>Les dernières annonces</h3>
-                <div class='col-sm-4 col-lg-4 col-md-4 annonce'>
-                    <div class='thumbnail'>
-                        <img src='http://www.salers-tourisme.fr/sites/www.salers-tourisme.fr/files/styles/imgfiche640x530/public/activite-culturelle/11251-1-ferme-moyen-age-batisse-small.jpg?itok=OB41EJaI' alt=''>
-                        <div class='caption'>
-                            <h4><a href='Detail_Article.aspx'>First Product</a></h4>
-                            <p class='pull-right'>En vente</p>
-                            <p'>$24.99</p>
-                            <p>12-12-2012</p>
+                <div id='dernieres_annonces' runat="server">
+
+                    <div class='col-sm-4 col-lg-4 col-md-4 annonce'>
+                        <div class='thumbnail'>
+                            <img src='http://www.salers-tourisme.fr/sites/www.salers-tourisme.fr/files/styles/imgfiche640x530/public/activite-culturelle/11251-1-ferme-moyen-age-batisse-small.jpg?itok=OB41EJaI' alt=''>
+                            <div class='caption'>
+                                <h4><a href='Detail_Annonce.aspx'>First Product</a></h4>
+                                <p class='pull-right'>En vente</p>
+                                <p'>$24.99</p>
+                                <p>12-12-2012</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class='col-sm-4 col-lg-4 col-md-4 annonce'>
-                    <div class='thumbnail'>
-                        <img src='http://placehold.it/320x150' alt=''>
-                        <div class='caption'>
-                            <h4><a href='Detail_Article.aspx'>First Product</a></h4>
-                            <p class='pull-right'>En vente</p>
-                            <p>$24.99</p>
-                            <p>12-12-2012</p>
+                    <div class='col-sm-4 col-lg-4 col-md-4 annonce'>
+                        <div class='thumbnail'>
+                            <img src='http://placehold.it/320x150' alt=''>
+                            <div class='caption'>
+                                <h4><a href='Detail_Annonce.aspx'>First Product</a></h4>
+                                <p class='pull-right'>En vente</p>
+                                <p>$24.99</p>
+                                <p>12-12-2012</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class='col-sm-4 col-lg-4 col-md-4 annonce'>
-                    <div class='thumbnail'>
-                        <img src='http://placehold.it/320x150' alt=''>
-                        <div class='caption'>
-                            <h4><a href='Detail_Article.aspx'>First Product</a></h4>
-                            <p class='pull-right'>En vente</p>
-                            <p>$24.99</p>
-                            <p>12-12-2012</p>
+                    <div class='col-sm-4 col-lg-4 col-md-4 annonce'>
+                        <div class='thumbnail'>
+                            <img src='http://placehold.it/320x150' alt=''>
+                            <div class='caption'>
+                                <h4><a href='Detail_Annonce.aspx'>First Product</a></h4>
+                                <p class='pull-right'>En vente</p>
+                                <p>$24.99</p>
+                                <p>12-12-2012</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class='col-sm-4 col-lg-4 col-md-4 annonce'>
-                    <div class='thumbnail'>
-                        <img src='http://placehold.it/320x150' alt=''>
-                        <div class='caption'>
-                            <h4><a href='Detail_Article.aspx'>First Product</a></h4>
-                            <p class='pull-right'>En vente</p>
-                            <p>$24.99</p>
-                            <p>12-12-2012</p>
+                    <div class='col-sm-4 col-lg-4 col-md-4 annonce'>
+                        <div class='thumbnail'>
+                            <img src='http://placehold.it/320x150' alt=''>
+                            <div class='caption'>
+                                <h4><a href='Detail_Annonce.aspx'>First Product</a></h4>
+                                <p class='pull-right'>En vente</p>
+                                <p>$24.99</p>
+                                <p>12-12-2012</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class='col-sm-4 col-lg-4 col-md-4 annonce'>
-                    <div class='thumbnail'>
-                        <img src='http://placehold.it/320x150' alt=''>
-                        <div class='caption'>
-                            <h4><a href='Detail_Article.aspx'>First Product</a></h4>
-                            <p class='pull-right'>En vente</p>
-                            <p>$24.99</p>
-                            <p>12-12-2012</p>
+                    <div class='col-sm-4 col-lg-4 col-md-4 annonce'>
+                        <div class='thumbnail'>
+                            <img src='http://placehold.it/320x150' alt=''>
+                            <div class='caption'>
+                                <h4><a href='Detail_Annonce.aspx'>First Product</a></h4>
+                                <p class='pull-right'>En vente</p>
+                                <p>$24.99</p>
+                                <p>12-12-2012</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class='col-sm-4 col-lg-4 col-md-4 annonce'>
-                    <div class='thumbnail'>
-                        <img src='http://placehold.it/320x150' alt=''>
-                        <div class='caption'>
-                            <h4><a href='Detail_Article.aspx'>First Product</a></h4>
-                            <p class='pull-right'>En vente</p>
-                            <p>$24.99</p>
-                            <p>12-12-2012</p>
+                    <div class='col-sm-4 col-lg-4 col-md-4 annonce'>
+                        <div class='thumbnail'>
+                            <img src='http://placehold.it/320x150' alt=''>
+                            <div class='caption'>
+                                <h4><a href='Detail_Annonce.aspx'>First Product</a></h4>
+                                <p class='pull-right'>En vente</p>
+                                <p>$24.99</p>
+                                <p>12-12-2012</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
 
         </div>

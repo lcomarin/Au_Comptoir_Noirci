@@ -175,7 +175,7 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
-    <Content Include="AddArticle.aspx" />
+    <Content Include="AddAnnonce.aspx" />
     <Content Include="AddCategorie.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
@@ -203,7 +203,7 @@
     <Content Include="Content\img\supp.png" />
     <Content Include="Content\img\target-512.png" />
     <Content Include="Content\Site.css" />
-    <Content Include="Detail_Article.aspx" />
+    <Content Include="Detail_Annonce.aspx" />
     <Content Include="Erreur.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -212,7 +212,7 @@
     <Content Include="Account\Web.config" />
     <Content Include="Profil.aspx" />
     <Content Include="Recherche.aspx" />
-    <Content Include="SuppArticle.aspx" />
+    <Content Include="SuppAnnonce.aspx" />
     <Content Include="WebServiceAutoComplete.asmx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Categories.aspx" />
@@ -371,12 +371,12 @@
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AddArticle.aspx.cs">
-      <DependentUpon>AddArticle.aspx</DependentUpon>
+    <Compile Include="AddAnnonce.aspx.cs">
+      <DependentUpon>AddAnnonce.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AddArticle.aspx.designer.cs">
-      <DependentUpon>AddArticle.aspx</DependentUpon>
+    <Compile Include="AddAnnonce.aspx.designer.cs">
+      <DependentUpon>AddAnnonce.aspx</DependentUpon>
     </Compile>
     <Compile Include="AddCategorie.aspx.cs">
       <DependentUpon>AddCategorie.aspx</DependentUpon>
@@ -410,12 +410,12 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Detail_Article.aspx.cs">
-      <DependentUpon>Detail_Article.aspx</DependentUpon>
+    <Compile Include="Detail_Annonce.aspx.cs">
+      <DependentUpon>Detail_Annonce.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Detail_Article.aspx.designer.cs">
-      <DependentUpon>Detail_Article.aspx</DependentUpon>
+    <Compile Include="Detail_Annonce.aspx.designer.cs">
+      <DependentUpon>Detail_Annonce.aspx</DependentUpon>
     </Compile>
     <Compile Include="Erreur.aspx.cs">
       <DependentUpon>Erreur.aspx</DependentUpon>
@@ -451,12 +451,12 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
-    <Compile Include="SuppArticle.aspx.cs">
-      <DependentUpon>SuppArticle.aspx</DependentUpon>
+    <Compile Include="SuppAnnonce.aspx.cs">
+      <DependentUpon>SuppAnnonce.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SuppArticle.aspx.designer.cs">
-      <DependentUpon>SuppArticle.aspx</DependentUpon>
+    <Compile Include="SuppAnnonce.aspx.designer.cs">
+      <DependentUpon>SuppAnnonce.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

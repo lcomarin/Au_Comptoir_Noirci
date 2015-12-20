@@ -35,7 +35,7 @@ namespace Au_Comptoir_Noirci
                                             "<div class='thumbnail'>"+
                                                 "<img src='"+String.Format("{0}", dR[0])+"' alt=''>"+
                                                 "<div class='caption'>"+
-                                                    "<h4><a href='Detail_Article.aspx?IdAnnonce="+String.Format("{0}", dR[1])+"'>"+String.Format("{0}", dR[2])+"</a></h4>"+
+                                                    "<h4><a href='Detail_Annonce.aspx?IdAnnonce="+String.Format("{0}", dR[1])+"'>"+String.Format("{0}", dR[2])+"</a></h4>"+
                                                     "<p>"+String.Format("{0}", dR[3])+"</p>"+
                                                     "<p>"+String.Format("{0}", dR[4])+"</p>"+
                                                 "</div>"+
@@ -73,7 +73,46 @@ namespace Au_Comptoir_Noirci
                                             "<div class='thumbnail'>" +
                                                 "<img src='" + String.Format("{0}", dR[0]) + "' alt=''>" +
                                                 "<div class='caption'>" +
-                                                    "<h4><a href='Detail_Article.aspx?IdAnnonce=" + String.Format("{0}", dR[1]) + "'>" + String.Format("{0}", dR[2]) + "</a></h4>" +
+                                                    "<h4><a href='Detail_Annonce.aspx?IdAnnonce=" + String.Format("{0}", dR[1]) + "'>" + String.Format("{0}", dR[2]) + "</a></h4>" +
+                                                    "<p>" + String.Format("{0}", dR[3]) + "</p>" +
+                                                    "<p>" + String.Format("{0}", dR[4]) + "</p>" +
+                                                "</div>" +
+                                            "</div>" +
+                                        "</div>";
+                        }
+                        resultat_recherche.InnerHtml = reponse;
+                        titre.InnerText = "Toutes les annonces pour la catégorie :" + param ;
+                    }
+                    /* Si l'on n'a de réponse à la recherche, redirection vers la page d'erreur */
+                    else
+                    {
+                        Response.Redirect("Erreur.aspx?codeErreur=1");
+                    }
+                    connexion.Close();
+                }
+            }
+            /* Si l'on n'a fait de recherche selon un utilisateur ou une catégorie, Affichage de*/
+            else
+            {
+                /* Affichage des six dernières annonces */
+                using (SqlConnection connexion = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["NomBdd"].ConnectionString))
+                {
+                    /* requête faite sur les dates selon la plus récente avec uniquement 6 résultats */
+                    String req = "  select photo, id_annonce, titre, statut, date from annonce a order by date desc";
+                    SqlCommand command = new SqlCommand(req, connexion);
+                    connexion.Open();
+                    SqlDataReader dR = command.ExecuteReader();
+                    /* vérification si l'on a une réponse à la recherche */
+                    if (dR.HasRows)
+                    {
+                        /* tant que l'on a une réponse, on rajoute à la variable le texte permettant d'intégrer la ligne de réponse de la requête sql */
+                        while (dR.Read())
+                        {
+                            reponse += "<div class='col-sm-4 col-lg-4 col-md-4 annonce'>" +
+                                            "<div class='thumbnail'>" +
+                                                "<img src='" + String.Format("{0}", dR[0]) + "' alt=''>" +
+                                                "<div class='caption'>" +
+                                                    "<h4><a href='Detail_Annonce.aspx?IdAnnonce=" + String.Format("{0}", dR[1]) + "'>" + String.Format("{0}", dR[2]) + "</a></h4>" +
                                                     "<p>" + String.Format("{0}", dR[3]) + "</p>" +
                                                     "<p>" + String.Format("{0}", dR[4]) + "</p>" +
                                                 "</div>" +
@@ -86,15 +125,9 @@ namespace Au_Comptoir_Noirci
                     else
                     {
                         Response.Redirect("Erreur.aspx?codeErreur=1");
-                        titre.InnerText = "Toutes les annonces pour la catégorie :" + param ;
                     }
                     connexion.Close();
                 }
-            }
-            /* Si l'on n'a fait de recherche selon un utilisateur ou une catégorie, redirection vers la page d'erreur */
-            else
-            {
-                Response.Redirect("Erreur.aspx?codeErreur=1");
             }
 
             /* A définir */

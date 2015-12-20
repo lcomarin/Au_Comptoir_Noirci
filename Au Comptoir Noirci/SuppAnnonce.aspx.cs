@@ -9,16 +9,16 @@ using System.Web.UI.WebControls;
 
 namespace Au_Comptoir_Noirci
 {
-    public partial class SuppArticle : System.Web.UI.Page
+    public partial class SuppAnnonce : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            titre_article.InnerText += Request.QueryString["TitreAnnonce"];
+            titre_annonce.InnerText += Request.QueryString["TitreAnnonce"];
         }
 
         protected void retour_Annonce(object sender, EventArgs e)
         {
-            Response.Redirect("Detail_Article.aspx?IdAnnonce=" + Request.QueryString["IdAnnonce"]);
+            Response.Redirect("Detail_Annonce.aspx?IdAnnonce=" + Request.QueryString["IdAnnonce"]);
         }
 
 
@@ -39,7 +39,8 @@ namespace Au_Comptoir_Noirci
                     String req = "select id_categorie from categorie_annonce where id_annonce = " + Request.QueryString["IdAnnonce"];
                     command.CommandText = req;
                     SqlDataReader dR = command.ExecuteReader();
-                    /* vérification si l'on a un ajout ou une suppression de catégorie à la recherche */
+                    /* Suppression des liens entre les différentes catégories et l'annonce supprimée */
+    
                     if (dR.HasRows)
                     {
                         while (dR.Read())

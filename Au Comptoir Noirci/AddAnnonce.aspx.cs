@@ -11,7 +11,7 @@ using System.Diagnostics;
 
 namespace Au_Comptoir_Noirci
 {
-    public partial class AddArticle : System.Web.UI.Page
+    public partial class AddAnnonce : System.Web.UI.Page
     {
         /* Liste pour garder les id des catégories concernant l'annonce */
         List<int> categories_annonce = new List<int>();
@@ -36,13 +36,13 @@ namespace Au_Comptoir_Noirci
             //        {
             //            while (dR.Read())
             //            {
-            //                titre_article.Value = String.Format("{0}", dR[0]);
-            //                image_article.Value = String.Format("{0}", dR[1]);
-            //                statut_article.Value = String.Format("{0}", dR[2]);
-            //                description_article.InnerText = String.Format("{0}", dR[3]);
+            //                titre_annonce.Value = String.Format("{0}", dR[0]);
+            //                image_annonce.Value = String.Format("{0}", dR[1]);
+            //                statut_annonce.Value = String.Format("{0}", dR[2]);
+            //                description_annonce.InnerText = String.Format("{0}", dR[3]);
             //            }
             //        }
-            //        /* Mise en page des catégories concernant l'article */
+            //        /* Mise en page des catégories concernant l'annonce */
             //        req = " select c.libelle, c.id from categories c inner join categorie_annonce ca on ca.id_categorie = c.id_categorie inner join annonce a on a.id_annonce = ca.id_annonce  where a.id_annonce = " + Request.QueryString["IdAnnonce"];
             //        command.CommandText = req ;
             //        dR = command.ExecuteReader();
@@ -58,7 +58,7 @@ namespace Au_Comptoir_Noirci
             //        }
             //        connexion.Close();
             //    }
-            //    bouton_add.Text = "Modifier l'article";
+            //    bouton_add.Text = "Modifier l'annonce";
             //}
         }
 
@@ -120,19 +120,19 @@ namespace Au_Comptoir_Noirci
         protected void add_Annonce(object sender, EventArgs e)
         {
             /* Vérification des champs vides */
-            if (titre_article.Value == "")
+            if (titre_annonce.Value == "")
             {
                 MessageBox.Show("Vous n'avez entré aucun titre pour cette annonce.");
             }
-            else if (image_article.Value == "")
+            else if (image_annonce.Value == "")
             {
                 MessageBox.Show("Vous n'avez entré aucune image pour cette annonce.");
             }
-            else if (statut_article.Value == "")
+            else if (statut_annonce.Value == "")
             {
                 MessageBox.Show("Vous n'avez entré aucun statut pour cette annonce.");
             }
-            else if (description_article.Value == "")
+            else if (description_annonce.Value == "")
             {
                 MessageBox.Show("Vous n'avez entré aucune description pour cette annonce.");
             }
@@ -156,7 +156,7 @@ namespace Au_Comptoir_Noirci
                         if (Request.QueryString["IdAnnonce"] == "")
                         {
                             /* SELECT SCOPE_IDENTITY() --> Récupération de l'id de l'insert */
-                            String req = " insert into annonce values (" + titre_article.Value + "," + description_article.Value + "," + DateTime.Now + "," + statut_article.Value + "," + image_article.Value + "); SELECT SCOPE_IDENTITY()";
+                            String req = " insert into annonce values (" + titre_annonce.Value + "," + description_annonce.Value + "," + DateTime.Now + "," + statut_annonce.Value + "," + image_annonce.Value + "); SELECT SCOPE_IDENTITY()";
                             command.CommandText = req;
                             string id_annonce = "" + command.ExecuteScalar();
                             /* Insertion du lien entre les catégories et l'annonce */
@@ -172,7 +172,7 @@ namespace Au_Comptoir_Noirci
                         else
                         {
                             /* Mise à jour de l'annonce */
-                            String req = " update annonce set titre = " + titre_article.Value + ", contenu = " + description_article.Value + ", date = " + DateTime.Now + ", statut = " + statut_article.Value + ", photo = " + image_article.Value + " where id_annonce = " + Request.QueryString["IdAnnonce"] + " )";
+                            String req = " update annonce set titre = " + titre_annonce.Value + ", contenu = " + description_annonce.Value + ", date = " + DateTime.Now + ", statut = " + statut_annonce.Value + ", photo = " + image_annonce.Value + " where id_annonce = " + Request.QueryString["IdAnnonce"] + " )";
                             command.CommandText = req;
                             command.ExecuteNonQuery();
                             req = "select id_categorie from categorie_annonce where id_annonce = " + Request.QueryString["IdAnnonce"];
